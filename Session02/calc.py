@@ -31,3 +31,6 @@ print ('breakfast_sec', int (breakfast_sec) )
 # What is the percentage of the increase? Format the result as 'xx.x%'. Keep one figure after decimal point.
 old_grade = 82
 new_grade = 89
+(89/82)     
+print ('the increase is {:.2f}%'.format(1.0853658536585367))
+
