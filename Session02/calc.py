@@ -32,5 +32,5 @@ print ('breakfast_sec', int (breakfast_sec) )
 old_grade = 82
 new_grade = 89
 (89/82)     
-print ('the increase is {:.2f}%'.format(1.0853658536585367))
+print ('the increase is {:.1f}%'.format(108.53658536585367))
 
