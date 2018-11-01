@@ -27,7 +27,10 @@ class Candidate:
         state: a string of state abbreviation
         """
         self.winning_states.append(state)            
-        self.votes += ELECTORS.get(state)            
+        self.votes += ELECTORS.get(state)     
+
+    def __gt__(self,other):
+        return self.votes>other.votes      
 
 
 
