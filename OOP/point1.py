@@ -42,6 +42,18 @@ def distance_between_points(p1, p2):
     distance = math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
     return distance
 
+def main():
+        defne=Point(4, 3)
+        print(defne)
+        shirley=Point(1,1)
+        print(defne+shirley)
+        print(defne-shirley)
+
+        angela = Point(4,10)
+        print(angela == defne)
+        
+
+
 new_point = Point()
 new_point.x = 100
 new_point.y = 50
@@ -51,6 +63,8 @@ Mouse_point.x = 50
 Mouse_point.y = 60 
 
 print(distance_between_points(new_point,Mouse_point))
+
+
 
 
 class Rectangle:
